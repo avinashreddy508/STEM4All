@@ -212,7 +212,7 @@ st.set_page_config(
     }
 )
 
-st.sidebar.image("STEM4All_Empowering_Minds.jpeg", caption="STEM4All Chat Assistant", use_column_width=True)
+st.sidebar.image("STEM4All_Empowering_Minds.jpeg", caption="STEM4All Chat Assistant", use_container_width=True)
 
 
 # Main function for the Streamlit app
