@@ -270,8 +270,8 @@ def main():
                 if response:  # Check if response is not None
                     message_placeholder.markdown(response)
 
-                    if rag:
-                        st.markdown(f"Link to [{relative_path}]({url_link})")
+                    #if rag:
+                        #st.markdown(f"Link to [{relative_path}]({url_link})")
                     # Store the assistant's response in the session history
                     st.session_state.messages.append({"role": "assistant", "content": response})
                 else:
